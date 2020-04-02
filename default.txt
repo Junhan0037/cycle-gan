@@ -1,0 +1,7 @@
+conda activate keras-cyclegan
+이미지들은 256 * 256 픽셀로 고정!
+datasets의 압축 및 폴더이름은 apple2orange로 고정!
+
+conda create -n keras-cyclegan tensorflow-gpu git opencv keras pillow matplotlib numpy scipy pillow scikit-image
+
+pip install git+https://www.github.com/keras-team/keras-contrib.git
